@@ -4,6 +4,16 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- favicon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="img/favicon/site.webmanifest">
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+
+   <!--  -->
    <link rel="stylesheet" type="text/css" href="css/styles.css">
    <!-- &display=swap -->
    <link href="https://fonts.googleapis.com/css?family=Rubik:regular,700&display=swap&subset=cyrillic-ext"
@@ -37,9 +47,9 @@
             <nav id="menu" class="menu__body">
                <ul class="menu__list">
                   <li class="menu__item"><a href="#home" class="menu__link">HOME</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">SUPPORT</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">CONTACT US</a></li>
+                  <li class="menu__item"><a href="#features" class="menu__link">FEATURES</a></li>
+                  <li class="menu__item"><a href="#support" class="menu__link">SUPPORT</a></li>
+                  <li class="menu__item"><a href="#contact-us" class="menu__link">CONTACT US</a></li>
                </ul>
             </nav>
             <div class="header__button">
@@ -50,7 +60,7 @@
       </header>
       <!-- HEDER -- GET-STARTED -->
       <main class="main">
-         <section class="get-started">
+         <section class="get-started " id="home">
             <div class="get-started__container _container">
                <div class="get-started__content">
                   <h1 class="get-started__header _header">Take care of yours family’s <span
@@ -77,7 +87,7 @@
             </div>
          </section>
          <!-- GET STARTED - STAYSAFE -->
-         <section class="stay-safe">
+         <section class="stay-safe" id="features">
             <div class="stay-safe__container _container">
                <div class="stay-safe__media">
                   <div class="stay-safe__image">
@@ -102,7 +112,7 @@
             </div>
          </section>
          <!-- STAYSAFE--CONVERSATON -->
-         <section class="conversation">
+         <section class="conversation" id="support">
             <div class="conversation__container _container">
                <div class="conversation__statistics">
                   <div class="conversation__columns">
@@ -132,16 +142,17 @@
                      <div class="conversation__button button">Features</div>
                   </div>
                   <div class="conversation__video">
-                     <iframe src="https://www.youtube.com/embed/sohdv21BVNI" title="YouTube video player"
+                     <iframe src="https://www.youtube.com/embed/ZHgPaIf_NNA" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                        allowfullscreen>
+                     </iframe>
                   </div>
                </div>
             </div>
          </section>
          <!-- CONVERSATION--HEALTHCARE -->
-         <section class="healthcare">
+         <section class="healthcare" id="contact-us">
             <div class="healthcare__container _container">
                <div class="healthcare__content">
                   <h2 class="healthcare__header _header"><span style="color: #EC5863;">Healthcare</span> at your
